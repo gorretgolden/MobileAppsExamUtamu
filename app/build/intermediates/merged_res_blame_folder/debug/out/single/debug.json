@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_splash.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_booking_history.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_booking_history.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_select_trip.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_select_trip.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_booking.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/item_booking.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_trip.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/item_trip.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_splash.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/bg_splash.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_dashboard.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_account_details.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_account_details.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_button.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_onboarding.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_logo_summit_coaches.jpg.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/logo_summit_coaches.jpg"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_onboarding.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/item_onboarding.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_edittext.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_register.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_forgot_password.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_create_booking.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/layout/activity_create_booking.xml"
+    }
+]
