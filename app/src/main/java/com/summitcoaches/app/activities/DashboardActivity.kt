@@ -1,65 +1,69 @@
-package com.summitcoaches.app.activities
-
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.cardview.widget.CardView
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.appbar.MaterialToolbar
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
+import com.summitcoaches.app.activities.AboutActivity
 import com.summitcoaches.app.R
-import com.summitcoaches.app.utils.SessionManager
+import com.summitcoaches.app.activities.AccountDetailsActivity
+import com.summitcoaches.app.activities.BookingHistoryActivity
+import com.summitcoaches.app.activities.SelectTripActivity
 
 class DashboardActivity : AppCompatActivity() {
 
-    private lateinit var sessionManager: SessionManager
-    private lateinit var cardCreateBooking: CardView
-    private lateinit var cardBookingHistory: CardView
-    private lateinit var cardAccountDetails: CardView
-    private lateinit var cardLogout: CardView
+    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var navView: NavigationView
+    private lateinit var bottomNav: BottomNavigationView
+    private lateinit var toolbar: MaterialToolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        sessionManager = SessionManager(this)
+        drawerLayout = findViewById(R.id.drawer_layout)
+        navView = findViewById(R.id.nav_view)
+        bottomNav = findViewById(R.id.bottom_navigation)
+        toolbar = findViewById(R.id.toolbar)
 
-        // Check if user is logged in
-        if (!sessionManager.isLoggedIn()) {
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
-            return
+        setSupportActionBar(toolbar)
+        toolbar.setNavigationOnClickListener { drawerLayout.openDrawer(GravityCompat.START) }
+
+        // Handle drawer item clicks
+        navView.setNavigationItemSelectedListener { item ->
+            when(item.itemId){
+                R.id.nav_dashboard -> {
+                    // Load Dashboard fragment
+                    true
+                }
+                R.id.nav_about -> {
+                    // Show About fragment or activity
+                    startActivity(Intent(this, AboutActivity::class.java))
+                    true
+                }
+                else -> false
+            }
         }
 
-        initializeViews()
-        setupListeners()
-    }
-
-    private fun initializeViews() {
-        cardCreateBooking = findViewById(R.id.cardCreateBooking)
-        cardBookingHistory = findViewById(R.id.cardBookingHistory)
-        cardAccountDetails = findViewById(R.id.cardAccountDetails)
-        cardLogout = findViewById(R.id.cardLogout)
-
-        supportActionBar?.title = "Welcome, ${sessionManager.getUserName()}"
-    }
-
-    private fun setupListeners() {
-        cardCreateBooking.setOnClickListener {
-            startActivity(Intent(this, SelectTripActivity::class.java))
-        }
-
-        cardBookingHistory.setOnClickListener {
-            startActivity(Intent(this, BookingHistoryActivity::class.java))
-        }
-
-        cardAccountDetails.setOnClickListener {
-            startActivity(Intent(this, AccountDetailsActivity::class.java))
-        }
-
-        cardLogout.setOnClickListener {
-            sessionManager.clearSession()
-            Toast.makeText(this, "Logged out successfully", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
+        // Handle bottom navigation clicks
+        bottomNav.setOnItemSelectedListener { item ->
+            when(item.itemId){
+                R.id.bottom_create_booking -> {
+                    startActivity(Intent(this, SelectTripActivity::class.java))
+                    true
+                }
+                R.id.bottom_history -> {
+                    startActivity(Intent(this, BookingHistoryActivity::class.java))
+                    true
+                }
+                R.id.bottom_account -> {
+                    startActivity(Intent(this, AccountDetailsActivity::class.java))
+                    true
+                }
+                else -> false
+            }
         }
     }
 }
