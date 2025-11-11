@@ -18,16 +18,20 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            android:title="Dashboard"
+            android:title=""
             android:titleTextColor="@android:color/white"
             app:navigationIcon="@drawable/ic_menu" />
 
-        <!-- FrameLayout to hold fragments -->
+        <!-- Main container -->
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1">
+
+            <!-- Default home layout -->
+            <include layout="@layout/layout_home_dashboard"/>
+        </FrameLayout>
 
         <!-- Bottom Navigation -->
         <com.google.android.material.bottomnavigation.BottomNavigationView

@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SummitCoaches"
+        android:theme="@style/Theme.SummitCoaches.NoActionBar"
         tools:targetApi="31">
         
         <!-- Splash Activity - Main Launcher -->
@@ -40,6 +40,12 @@
             android:exported="false"
             android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar" />
+
 
         <!-- Register Activity -->
         <activity

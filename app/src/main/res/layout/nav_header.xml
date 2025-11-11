@@ -12,7 +12,7 @@
         android:id="@+id/tvDeveloperName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developer: John Doe"
+        android:text="Developer: Nabatanzi Gorret"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold"/>
@@ -21,7 +21,7 @@
         android:id="@+id/tvDeveloperEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email: john.doe@example.com"
+        android:text="Email: nabatanzigorret143@gmail.com"
         android:textColor="@android:color/white"
         android:textSize="14sp"/>
 
@@ -29,7 +29,7 @@
         android:id="@+id/tvDeveloperContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact: +256 700 000 000"
+        android:text="Contact: 0751547654"
         android:textColor="@android:color/white"
         android:textSize="14sp"/>
 </LinearLayout>

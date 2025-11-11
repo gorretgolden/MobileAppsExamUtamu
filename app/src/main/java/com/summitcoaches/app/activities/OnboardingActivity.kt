@@ -68,7 +68,7 @@ class OnboardingActivity : AppCompatActivity() {
     }
 
     private fun navigateToLogin() {
-        startActivity(Intent(this, LoginActivity::class.java))
+     //   startActivity(Intent(this, LoginActivity::class.java))
         finish()
     }
 }

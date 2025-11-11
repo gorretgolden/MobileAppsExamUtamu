@@ -1,16 +1,17 @@
+package com.summitcoaches.app.activities
+
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.summitcoaches.app.activities.AboutActivity
+import androidx.fragment.app.Fragment
 import com.summitcoaches.app.R
-import com.summitcoaches.app.activities.AccountDetailsActivity
-import com.summitcoaches.app.activities.BookingHistoryActivity
-import com.summitcoaches.app.activities.SelectTripActivity
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -28,19 +29,38 @@ class DashboardActivity : AppCompatActivity() {
         bottomNav = findViewById(R.id.bottom_navigation)
         toolbar = findViewById(R.id.toolbar)
 
+        // Setup toolbar
         setSupportActionBar(toolbar)
         toolbar.setNavigationOnClickListener { drawerLayout.openDrawer(GravityCompat.START) }
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        // Handle drawer item clicks
+        // Static user name and role in drawer header
+        val headerView: View = navView.getHeaderView(0)
+        val tvDeveloperName: TextView = headerView.findViewById(R.id.tvDeveloperName)
+        val tvDeveloperEmail: TextView = headerView.findViewById(R.id.tvDeveloperEmail)
+        val tvDeveloperContact: TextView = headerView.findViewById(R.id.tvDeveloperContact)
+
+        tvDeveloperName.text = "Developer: Nabatanzi Gorret"
+        tvDeveloperContact.text = "Contact: 0751547654"
+        // Load Home fragment by default
+        loadFragment(HomeFragment())
+
+        // Handle drawer menu clicks
         navView.setNavigationItemSelectedListener { item ->
-            when(item.itemId){
+            when (item.itemId) {
                 R.id.nav_dashboard -> {
-                    // Load Dashboard fragment
+                    loadFragment(HomeFragment())
+                    drawerLayout.closeDrawer(GravityCompat.START)
                     true
                 }
                 R.id.nav_about -> {
-                    // Show About fragment or activity
                     startActivity(Intent(this, AboutActivity::class.java))
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    true
+                }
+                R.id.nav_contact -> {
+                  //  startActivity(Intent(this, DeveloperInfoActivity::class.java))
+                    drawerLayout.closeDrawer(GravityCompat.START)
                     true
                 }
                 else -> false
@@ -49,7 +69,11 @@ class DashboardActivity : AppCompatActivity() {
 
         // Handle bottom navigation clicks
         bottomNav.setOnItemSelectedListener { item ->
-            when(item.itemId){
+            when (item.itemId) {
+                R.id.bottom_home -> {
+                    loadFragment(HomeFragment())
+                    true
+                }
                 R.id.bottom_create_booking -> {
                     startActivity(Intent(this, SelectTripActivity::class.java))
                     true
@@ -65,5 +89,11 @@ class DashboardActivity : AppCompatActivity() {
                 else -> false
             }
         }
+    }
+
+    private fun loadFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit()
     }
 }
