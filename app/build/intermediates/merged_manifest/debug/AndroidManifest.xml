@@ -54,24 +54,28 @@
         <activity
             android:name="com.summitcoaches.app.activities.LoginActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Register Activity -->
         <activity
             android:name="com.summitcoaches.app.activities.RegisterActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Forgot Password Activity -->
         <activity
             android:name="com.summitcoaches.app.activities.ForgotPasswordActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Dashboard Activity -->
         <activity
             android:name="com.summitcoaches.app.activities.DashboardActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar" />
 
         <!-- Select Trip Activity -->
         <activity

@@ -38,23 +38,27 @@
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Register Activity -->
         <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Forgot Password Activity -->
         <activity
             android:name=".activities.ForgotPasswordActivity"
             android:exported="false"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
         <!-- Dashboard Activity -->
         <activity
             android:name=".activities.DashboardActivity"
+            android:theme="@style/Theme.SummitCoaches.NoActionBar"
             android:exported="false" />
 
         <!-- Select Trip Activity -->

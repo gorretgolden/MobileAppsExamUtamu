@@ -10,12 +10,20 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-80dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_summit_coaches" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
-            android:text="Create Account"
+            android:layout_marginTop="-100dp"
+            android:text="Create An Account"
             android:textColor="@color/primary"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -91,7 +99,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="24dp"
             android:text="Register"
-            android:textSize="16sp" />
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/tvLogin"
@@ -99,6 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
+            android:textSize="20sp"
             android:text="Already have an account? Login"
             android:textColor="@color/primary" />
     </LinearLayout>

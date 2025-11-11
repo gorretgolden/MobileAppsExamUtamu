@@ -20,17 +20,17 @@ class OnboardingAdapter(private val context: Context) :
 
     private val items = listOf(
         OnboardingItem(
-            android.R.drawable.ic_dialog_info,
+            R.drawable.easy_booking,
             "Easy Booking",
             "Book bus tickets quickly and easily for passengers, luggage, and parcels"
         ),
         OnboardingItem(
-            android.R.drawable.ic_menu_mylocation,
+            R.drawable.real_time_updates,
             "Real-time Updates",
             "Track your bookings and get live updates on bus schedules"
         ),
         OnboardingItem(
-            android.R.drawable.ic_lock_lock,
+            R.drawable.secure_payment,
             "Secure Payments",
             "Safe and secure payment processing for all your transactions"
         )
