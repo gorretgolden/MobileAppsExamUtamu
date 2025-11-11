@@ -1,78 +1,134 @@
 [
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_splash.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_item_booking.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\item_booking.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_booking_history.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_booking_history.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_select_trip.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_select_trip.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_select_trip.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_select_trip.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/xml_backup_rules.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\drawable_logo_summit_coaches.jpg.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\drawable\\logo_summit_coaches.jpg"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_booking.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/item_booking.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\drawable_bg_splash.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\drawable\\bg_splash.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_trip.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/item_trip.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_splash.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/drawable/bg_splash.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_dashboard.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_account_details.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_account_details.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_button.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/drawable/bg_button.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_create_booking.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_create_booking.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_onboarding.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_onboarding.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_onboarding.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/drawable_logo_summit_coaches.jpg.flat",
-        "source": "com.summitcoaches.app-main-34:/drawable/logo_summit_coaches.jpg"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\drawable_bg_button.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\drawable\\bg_button.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_item_onboarding.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/item_onboarding.xml"
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_item_trip.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\item_trip.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/drawable_bg_edittext.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/drawable/bg_edittext.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_register.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_register.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_forgot_password.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_forgot_password.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_login.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_login.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.summitcoaches.app-merged_res-32:/layout_activity_create_booking.xml.flat",
-        "source": "com.summitcoaches.app-main-34:/layout/activity_create_booking.xml"
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_booking_history.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_booking_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.summitcoaches.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.summitcoaches.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\drawable_bg_edittext.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_activity_account_details.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\activity_account_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-merged_res-32:\\layout_item_onboarding.xml.flat",
+        "source": "C:\\Users\\ir\\.gradle\\daemon\\8.5\\com.summitcoaches.app-main-34:\\layout\\item_onboarding.xml"
     }
 ]

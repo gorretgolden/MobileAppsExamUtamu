@@ -4,7 +4,7 @@
             "outputFile": "com.summitcoaches.app-mergeDebugResources-30:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\GOLDEN\\.gradle\\caches\\transforms-3\\df0cd03a14f2fe9204e11ea3400d1502\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\ir\\.gradle\\caches\\transforms-3\\df0cd03a14f2fe9204e11ea3400d1502\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

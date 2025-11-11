@@ -11,6 +11,8 @@ color text_secondary
 drawable bg_button
 drawable bg_edittext
 drawable bg_splash
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable logo_summit_coaches
 id bottomLayout
 id btnCreateBooking
@@ -77,6 +79,8 @@ layout activity_splash
 layout item_booking
 layout item_onboarding
 layout item_trip
+mipmap ic_launcher
+mipmap ic_launcher_round
 string account_details
 string app_name
 string booking_history
