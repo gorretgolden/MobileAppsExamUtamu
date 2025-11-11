@@ -4,7 +4,7 @@
             "outputFile": "com.summitcoaches.app-mergeDebugResources-30:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\GOLDEN\\.gradle\\caches\\transforms-3\\5770026167c130682055c6e792ddcbfd\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\ir\\.gradle\\caches\\transforms-3\\5770026167c130682055c6e792ddcbfd\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
