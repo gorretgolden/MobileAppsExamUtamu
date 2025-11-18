@@ -13,6 +13,6 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
 
         // Display app info
-        findViewById<TextView>(R.id.tvAbout).text = "Summit Coaches v1\nBook buses easily for passengers, luggage, and parcels."
+        findViewById<TextView>(R.id.tvAbout).text = "App Info\nBook buses easily for passengers, luggage, and parcels."
     }
 }

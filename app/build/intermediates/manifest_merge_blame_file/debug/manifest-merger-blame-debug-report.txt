@@ -28,7 +28,7 @@
 19-->[androidx.core:core:1.12.0] C:\Users\ir\.gradle\caches\transforms-3\31d979b205dee59d21a56dcfb14c6291\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:9:5-86:19
+21-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:9:5-92:19
 22        android:allowBackup="true"
 22-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:10:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -48,8 +48,8 @@
 31        android:supportsRtl="true"
 31-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:16:9-35
 32        android:testOnly="true"
-33        android:theme="@style/Theme.SummitCoaches" >
-33-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:17:9-51
+33        android:theme="@style/Theme.SummitCoaches.NoActionBar" >
+33-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:17:9-63
 34
 35        <!-- Splash Activity - Main Launcher -->
 36        <activity
@@ -93,142 +93,150 @@
 57-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:41:13-67
 58            android:windowSoftInputMode="adjustResize" />
 58-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:42:13-55
-59
-60        <!-- Register Activity -->
-61        <activity
-61-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:45:9-49:58
-62            android:name="com.summitcoaches.app.activities.RegisterActivity"
-62-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:46:13-56
-63            android:exported="false"
-63-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:47:13-37
-64            android:theme="@style/Theme.SummitCoaches.NoActionBar"
-64-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:48:13-67
-65            android:windowSoftInputMode="adjustResize" />
-65-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:49:13-55
-66
-67        <!-- Forgot Password Activity -->
-68        <activity
-68-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:52:9-56:58
-69            android:name="com.summitcoaches.app.activities.ForgotPasswordActivity"
-69-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:53:13-62
-70            android:exported="false"
-70-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:54:13-37
-71            android:theme="@style/Theme.SummitCoaches.NoActionBar"
-71-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:55:13-67
-72            android:windowSoftInputMode="adjustResize" />
-72-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:56:13-55
-73
-74        <!-- Dashboard Activity -->
-75        <activity
-75-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:59:9-62:40
-76            android:name="com.summitcoaches.app.activities.DashboardActivity"
-76-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:60:13-57
-77            android:exported="false"
-77-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:62:13-37
-78            android:theme="@style/Theme.SummitCoaches.NoActionBar" />
-78-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:61:13-67
-79
-80        <!-- Select Trip Activity -->
-81        <activity
-81-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:65:9-67:40
-82            android:name="com.summitcoaches.app.activities.SelectTripActivity"
-82-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:66:13-58
-83            android:exported="false" />
-83-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:67:13-37
-84
-85        <!-- Create Booking Activity -->
-86        <activity
-86-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:70:9-73:58
-87            android:name="com.summitcoaches.app.activities.CreateBookingActivity"
-87-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:71:13-61
-88            android:exported="false"
-88-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:72:13-37
-89            android:windowSoftInputMode="adjustResize" />
-89-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:73:13-55
-90
-91        <!-- Booking History Activity -->
-92        <activity
-92-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:76:9-78:40
-93            android:name="com.summitcoaches.app.activities.BookingHistoryActivity"
-93-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:77:13-62
-94            android:exported="false" />
-94-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:78:13-37
-95
-96        <!-- Account Details Activity -->
-97        <activity
-97-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:81:9-84:58
-98            android:name="com.summitcoaches.app.activities.AccountDetailsActivity"
-98-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:82:13-62
-99            android:exported="false"
-99-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:83:13-37
-100            android:windowSoftInputMode="adjustResize" />
-100-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:84:13-55
-101
-102        <provider
-102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-103            android:name="androidx.startup.InitializationProvider"
-103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-104            android:authorities="com.summitcoaches.app.androidx-startup"
-104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-105            android:exported="false" >
-105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-106            <meta-data
-106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-107                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-108                android:value="androidx.startup" />
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-109            <meta-data
-109-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-110                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-110-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-111                android:value="androidx.startup" />
-111-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-112            <meta-data
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-113                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-114                android:value="androidx.startup" />
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-115        </provider>
-116
-117        <receiver
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-119            android:directBootAware="false"
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-120            android:enabled="true"
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-121            android:exported="true"
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-122            android:permission="android.permission.DUMP" >
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-125            </intent-filter>
-126            <intent-filter>
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-128            </intent-filter>
-129            <intent-filter>
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-131            </intent-filter>
-132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-134            </intent-filter>
-135        </receiver>
-136    </application>
-137
-138</manifest>
+59        <activity
+59-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:44:9-47:70
+60            android:name="com.summitcoaches.app.activities.AboutActivity"
+60-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:45:13-53
+61            android:exported="false"
+61-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:46:13-37
+62            android:theme="@style/Theme.SummitCoaches.NoActionBar" />
+62-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:47:13-67
+63
+64        <!-- Register Activity -->
+65        <activity
+65-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:51:9-55:58
+66            android:name="com.summitcoaches.app.activities.RegisterActivity"
+66-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:52:13-56
+67            android:exported="false"
+67-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:53:13-37
+68            android:theme="@style/Theme.SummitCoaches.NoActionBar"
+68-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:54:13-67
+69            android:windowSoftInputMode="adjustResize" />
+69-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:55:13-55
+70
+71        <!-- Forgot Password Activity -->
+72        <activity
+72-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:58:9-62:58
+73            android:name="com.summitcoaches.app.activities.ForgotPasswordActivity"
+73-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:59:13-62
+74            android:exported="false"
+74-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:60:13-37
+75            android:theme="@style/Theme.SummitCoaches.NoActionBar"
+75-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:61:13-67
+76            android:windowSoftInputMode="adjustResize" />
+76-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:62:13-55
+77
+78        <!-- Dashboard Activity -->
+79        <activity
+79-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:65:9-68:40
+80            android:name="com.summitcoaches.app.activities.DashboardActivity"
+80-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:66:13-57
+81            android:exported="false"
+81-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:68:13-37
+82            android:theme="@style/Theme.SummitCoaches.NoActionBar" />
+82-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:67:13-67
+83
+84        <!-- Select Trip Activity -->
+85        <activity
+85-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:71:9-73:40
+86            android:name="com.summitcoaches.app.activities.SelectTripActivity"
+86-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:72:13-58
+87            android:exported="false" />
+87-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:73:13-37
+88
+89        <!-- Create Booking Activity -->
+90        <activity
+90-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:76:9-79:58
+91            android:name="com.summitcoaches.app.activities.CreateBookingActivity"
+91-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:77:13-61
+92            android:exported="false"
+92-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:78:13-37
+93            android:windowSoftInputMode="adjustResize" />
+93-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:79:13-55
+94
+95        <!-- Booking History Activity -->
+96        <activity
+96-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:82:9-84:40
+97            android:name="com.summitcoaches.app.activities.BookingHistoryActivity"
+97-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:83:13-62
+98            android:exported="false" />
+98-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:84:13-37
+99
+100        <!-- Account Details Activity -->
+101        <activity
+101-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:87:9-90:58
+102            android:name="com.summitcoaches.app.activities.AccountDetailsActivity"
+102-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:88:13-62
+103            android:exported="false"
+103-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:89:13-37
+104            android:windowSoftInputMode="adjustResize" />
+104-->C:\Users\ir\Desktop\MobileAppsExamUtamu\app\src\main\AndroidManifest.xml:90:13-55
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.summitcoaches.app.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ir\.gradle\caches\transforms-3\ff818783ae56a580378be47fcae0dae1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ir\.gradle\caches\transforms-3\d7d0b8871f4cfe898a5fca473e94e413\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ir\.gradle\caches\transforms-3\94906ac7d35a71767f8ba8562f0c86eb\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>

@@ -3009,10 +3009,12 @@ drawable ic_clock_black_24dp
 drawable ic_dashboard
 drawable ic_email
 drawable ic_history
+drawable ic_home
 drawable ic_info
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_lock
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3201,6 +3203,7 @@ id bottomLayout
 id bottom_account
 id bottom_create_booking
 id bottom_history
+id bottom_home
 id bottom_navigation
 id bounce
 id bounceBoth
@@ -3218,6 +3221,8 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardBookingHistory
+id cardCreateBooking
 id carryVelocity
 id center
 id centerCrop
@@ -3349,6 +3354,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgLogo
 id immediateStop
 id included
 id indeterminate
@@ -3618,6 +3624,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAbout
+id tvAppVersion
 id tvBookingAmount
 id tvBookingDate
 id tvBookingRef
@@ -3640,6 +3647,9 @@ id tvTripPrice
 id tvTripRoute
 id tvTripSeats
 id tvTripTime
+id tvUserInfo
+id txtUserRoleLabel
+id txtUserWelcome
 id unchecked
 id uniform
 id unlabeled
@@ -3805,11 +3815,13 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_booking
 layout item_onboarding
 layout item_trip
+layout layout_home_dashboard
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

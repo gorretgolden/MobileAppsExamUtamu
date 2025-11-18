@@ -299,7 +299,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/phone/baseline_phone_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/lock/baseline_lock_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -310,7 +310,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="1976d2" />
-                            <entry key="outputName" value="ic_phone" />
+                            <entry key="outputName" value="ic_lock" />
                             <entry key="sourceFile" value="C:\Users\ir\Desktop\MobileAppsExamUtamu" />
                           </map>
                         </option>
